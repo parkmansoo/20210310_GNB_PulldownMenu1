@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+
+/* Reset */
+* {
+    color: #000;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a                 {text-decoration: none;}
+a:link            {color: #222;}
+a:visited         {color: #222;}
+a:hover           {color: #222;}
+a:active          {color: #222;}
+
+img {vertical-align: middle;}
+ul {list-style: none;}
+/* Reset */
+
+
+/* div#wrap s */
+div#wrap {
+    width: 600px;
+    padding: 20px;
+    border: 1px solid #000;
+    margin: 0 auto;
+}
+
+/* div#wrap e */
+
+/* GNB 메뉴 s */
+nav#gnb {
+    /*border: 1px solid #000;*/
+    padding: 10px;
+}
+#gnb>ul#mainmenu {
+    /*border: 1px solid #08f;*/
+    display: inline-block;
+}
+
+#gnb>#mainmenu>li {
+    border: 1px solid #aaa;
+    float: left;
+}
+#gnb a {
+    font-size: 20px;
+    padding: 10px 30px;
+    display: inline-block;
+}
+
+#gnb #mainmenu>li>a {
+    background-color: #08f;
+}
+#gnb a:hover {
+    font-weight: bold;
+    background-color: #08f;
+}
+
+
+#gnb>ul#mainmenu::after {
+    content: "";
+    height: 48px;
+    /*border: 1px solid #f00;*/
+    display: block;
+}
+
+#gnb ul.submenu {
+    display: none;
+}
+/* GNB 메뉴 e */
+
+
+
+
+
+
+
+
+
+
